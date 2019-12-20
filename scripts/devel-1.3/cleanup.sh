@@ -2,7 +2,7 @@
 source /opt/vyatta/etc/functions/script-template
 
 # Removing leftover leases and persistent rules
-sudo rm -f /var/lib/dhcp3/*
+sudo rm -f /var/lib/dhcp/*
 
 # Removing apt caches
 sudo rm -rf /var/cache/apt/*
